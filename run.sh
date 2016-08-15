@@ -2,8 +2,8 @@
 
 while [ true ]
 do
-    rsync -rpt /flow-src/* /usr/src/app/src
-    sleep 1
+    rsync -rpt /flow-src/* /usr/src/app/
+    sleep 0.5
 done &
 
 flow server --temp-dir /flow
